@@ -1,4 +1,4 @@
-# Computer Organization – NTUST
+# NTUST Computer Organization
 This repository contains my projects for the **Computer Organization** course at NTUST.  
 
 All Programming Assignments (PA) are graded with a ranking system. Only the **comprehensive score** (based on *area* and *slack*) allows a perfect score. Across the three projects, I achieved two perfect scores of 100, and one score of 98 (slightly higher area than some classmates, but still excellent).  
