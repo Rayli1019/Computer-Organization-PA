@@ -37,7 +37,7 @@ The CPU supports the following instructions:
 | Add unsigned | `Addu $Rd,$Rs,$Rt` | `$Rd = $Rs + $Rt` |
 | Sub unsigned | `Subu $Rd,$Rs,$Rt` | `$Rd = $Rs − $Rt` |
 | Shift left logical | `Sll $Rd,$Rs,Shamt` | `$Rd = $Rs << Shamt` |
-| OR | `Or $Rd,$Rs,$Rt` | `$Rd = $Rs \\| $Rt` |
+| OR | `Or $Rd,$Rs,$Rt` | `$Rd = $Rs \| $Rt` |
 | Add immediate unsigned | `Addiu $Rt,$Rs,Imm` | `$Rt = $Rs + Imm` |
 | Store word | `Sw $Rt,Imm($Rs)` | `Mem[$Rs + Imm] = $Rt` |
 | Load word | `Lw $Rt,Imm($Rs)` | `$Rt = Mem[$Rs + Imm]` |
@@ -73,7 +73,7 @@ Thanks to these optimizations, I achieved a **perfect score (100/100)** and rank
 | Add unsigned | `Addu $Rd,$Rs,$Rt` | `$Rd = $Rs + $Rt` |
 | Sub unsigned | `Subu $Rd,$Rs,$Rt` | `$Rd = $Rs − $Rt` |
 | Shift left logical | `Sll $Rd,$Rs,Shamt` | `$Rd = $Rs << Shamt` |
-| OR | `Or $Rd,$Rs,$Rt` | `$Rd = $Rs \\| $Rt` |
+| OR | `Or $Rd,$Rs,$Rt` | `$Rd = $Rs \| $Rt` |
 | Add immediate unsigned | `Addiu $Rt,$Rs,Imm` | `$Rt = $Rs + Imm` |
 | Store word | `Sw $Rt,Imm($Rs)` | `Mem[$Rs + Imm] = $Rt` |
 | Load word | `Lw $Rt,Imm($Rs)` | `$Rt = Mem[$Rs + Imm]` |
