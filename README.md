@@ -41,7 +41,7 @@ The CPU supports the following instructions:
 | Add immediate unsigned | `Addiu $Rt,$Rs,Imm` | `$Rt = $Rs + Imm` |
 | Store word | `Sw $Rt,Imm($Rs)` | `Mem[$Rs + Imm] = $Rt` |
 | Load word | `Lw $Rt,Imm($Rs)` | `$Rt = Mem[$Rs + Imm]` |
-| OR immediate | `Ori $Rt,$Rs,Imm` | `$Rt = $Rs \\| Imm` |
+| OR immediate | `Ori $Rt,$Rs,Imm` | `$Rt = $Rs \| Imm` |
 | Branch on equal | `Beq $Rs,$Rt,Imm` | `if ($Rs == $Rt) → PC = PC + 4 + Imm × 4` |
 | Jump | `J Imm` | `PC = {NextPC[31:28], Imm × 4}` |
 
@@ -77,7 +77,7 @@ Thanks to these optimizations, I achieved a **perfect score (100/100)** and rank
 | Add immediate unsigned | `Addiu $Rt,$Rs,Imm` | `$Rt = $Rs + Imm` |
 | Store word | `Sw $Rt,Imm($Rs)` | `Mem[$Rs + Imm] = $Rt` |
 | Load word | `Lw $Rt,Imm($Rs)` | `$Rt = Mem[$Rs + Imm]` |
-| OR immediate | `Ori $Rt,$Rs,Imm` | `$Rt = $Rs \\| Imm` |
+| OR immediate | `Ori $Rt,$Rs,Imm` | `$Rt = $Rs \| Imm` |
 
 #### Final Score: **100 / 100** (Ranked #1)
 
